@@ -1,0 +1,94 @@
+{
+	"nav": {
+		"home": "Home",
+		"search": "Search",
+		"sell": "Sell"
+	},
+	"home": {
+		"title": "Welcome to Nawy",
+		"subtitle": "Find your next home with our curated listings and projects.",
+		"recs": "Recommendations",
+		"recItems": [
+			"Explore top projects near you",
+			"Filter by bedrooms, budget, and location",
+			"Contact sellers directly"
+		],
+		"searchCta": "Search",
+		"sellTitle": "Sell your apartment",
+		"sellSubtitle": "Submit your unit and our team will reach out.",
+		"visionTitle": "Nawy's Vision",
+		"visionItems": [
+			"Empowering you with transparent, data-driven property insights.",
+			"Curated communities where lifestyle and convenience meet.",
+			"Dedicated guidance from discovery to delivery."
+		]
+	},
+	"search": {
+		"placeholder": "Search projects by name",
+		"inProject": "Search in {project}"
+	},
+	"buttons": {
+		"back": "← Back",
+		"goToSearch": "Go to Search",
+		"close": "Close",
+		"create": "Create",
+		"submit": "Submit"
+	},
+	"sell": {
+		"title": "Sell your apartment",
+		"unitName": "Unit Name",
+		"unitNumber": "Unit Number",
+		"project": "Project",
+		"success": "Apartment added successfully.",
+		"steps": [
+			{ "title": "1 Step", "heading": "List Your Property Details", "desc": "Add all the information related to your property" },
+			{ "title": "2 Step", "heading": "One Of Our Agents Will Call You", "desc": "We will help you find the best buyer" },
+			{ "title": "3 Step", "heading": "Meet With Serious Buyers", "desc": "Final step to sell your property" }
+		]
+	},
+	"forms": {
+		"fullName": "Full name",
+		"phone": "Phone",
+		"location": "Location",
+		"compound": "Compound",
+		"propertyType": "Property type",
+		"description": "Description",
+		"optional": "optional",
+		"placeholders": {
+			"fullName": "Your name",
+			"phone": "Phone number",
+			"location": "Location",
+			"compound": "Project name",
+			"select": "Property type?"
+		},
+		"types": {
+			"apartment": "Apartment",
+			"studio": "Studio",
+			"villa": "Villa",
+			"twin": "Twin house"
+		},
+		"propertyDetails": "Property Details",
+		"propertyName": "Property name",
+		"bedrooms": "Bedrooms",
+		"bathrooms": "Bathrooms",
+		"completion": "Completion",
+		"completionTypes": {
+			"notFinished": "Not finished",
+			"semiFinished": "Semi finished",
+			"finished": "Finished"
+		},
+		"furnished": "Furnished",
+		"delivery": "Delivery",
+		"delivered": "Delivered",
+		"yes": "Yes",
+		"no": "No",
+		"leaveWarning": "You did not submit your details.",
+		"success": "Request submitted successfully. Our sales team will contact you.",
+		"errors": {
+			"required": "This field is required",
+			"fullName": "Please enter firstName lastName",
+			"phone": "Please enter a valid phone number",
+			"numeric": "Please enter a number"
+		}
+	}
+}
