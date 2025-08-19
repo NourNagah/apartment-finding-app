@@ -1,10 +1,10 @@
 # Apartments App (Next.js + NestJS + PostgreSQL)
 
 Fully containerized full-stack app with authentication, apartment listing, details, and creation.
-
+## Epic url for whole app: https://nournagah89.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzQ3ZjQzMzRlM2MyNGMzMzgwYTI3YmM3NTRlZDI1MzYiLCJwIjoiaiJ9
 ## Tech Stack
 - Frontend: Next.js 14 (App Router) + Tailwind CSS
-- Backend: NestJS 10 + TypeORM + JWT Auth
+- Backend: NestJS 10 + TypeORM
 - Database: PostgreSQL 16
 - Container: Docker Compose
 
@@ -18,16 +18,14 @@ docker-compose up --build
 2. Open:
 - Frontend: http://localhost:3000
 - Backend API Docs (Swagger): http://localhost:4000/docs
-- DB: postgres on localhost:5432 (user: postgres, pass: postgres, db: apartments)
+- DB: postgres on localhost:5432 (db: apartments)
 
 On first start, backend runs migrations automatically.
 
 ## API Summary
-- POST `/auth/register` { email, password } -> { user, token }
-- POST `/auth/login` { email, password } -> { user, token }
 - GET `/apartments` query: offset, limit, search, project -> { data, total }
 - GET `/apartments/:id` -> Apartment
-- POST `/apartments` (Bearer token) -> creates apartment
+- POST `/apartments` -> creates apartment
 
 ## Local Development (without Docker)
 - Backend
@@ -51,6 +49,3 @@ On first start, backend runs migrations automatically.
 - `backend`: NestJS app (entities, modules, migrations)
 - `frontend`: Next.js app (app router pages and UI)
 - `docker-compose.yml`: Orchestrates DB, backend, frontend
-
-## Seeding (optional)
-Use Swagger to create a user, get a token, and POST a few apartments.
