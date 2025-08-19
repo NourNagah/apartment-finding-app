@@ -1,7 +1,7 @@
 # Apartments App (Next.js + NestJS + PostgreSQL)
 
 Fully containerized full-stack app with authentication, apartment listing, details, and creation.
-## Epic url for whole app: https://nournagah89.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?issueParent=10008&selectedIssue=SCRUM-15&atlOrigin=eyJpIjoiMjIwYTNkZjdjZDRiNGMwZDk3MWRiYWZjMzgzNDA1OWEiLCJwIjoiaiJ9
+## Epic url for whole app: https://nournagah89.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNzQ3ZjQzMzRlM2MyNGMzMzgwYTI3YmM3NTRlZDI1MzYiLCJwIjoiaiJ9
 ## Tech Stack
 - Frontend: Next.js 14 (App Router) + Tailwind CSS
 - Backend: NestJS 10 + TypeORM + JWT Auth
